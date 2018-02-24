@@ -1,5 +1,8 @@
 server:
   port: 7300
+logging:
+  level:
+    ink.hcode.cloud.springcloudconsumerfeign.feign.MyFeignClient: DEBUG  
 feign:
   compression:
     request:
@@ -14,6 +17,3 @@ feign:
         connectTimeout: 5000
         readTimeout: 5000
         loggerLevel: basic
-logging:
-  level:
-    ink.hcode.cloud.springcloudconsumerfeign.feign.MyFeignClient: DEBUG
