@@ -1,0 +1,5 @@
+server:
+  port: 8781
+zuul:
+  routes:
+    springcloud-consumer-feign-hystrix: /consumer-feign-hystrix/**
